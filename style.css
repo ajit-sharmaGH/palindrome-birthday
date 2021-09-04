@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#bday-input {
+    margin: auto;
+    padding: 10px 70px 10px 70px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+    background-color: antiquewhite;
+}
+
+#show-btn {
+    margin: auto;
+    padding: 10px 70px 10px 70px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: yellow;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border-color: red;
+}
+
+#result {
+    text-align: center;
+    font: bold;
+    background-color: black;
+    border: 10px;
+    border-radius: 0.3rem;
+    color: #ffffff;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    margin-top: 350px;
+    /* margin-bottom: 270px; */
+}
+
+footer p {
+    font-size: large;
+    text-align: center;
+    padding-left: 15px;
+}
+
+
+/* .footer-list {
+margin: 1rem;
+}
+*/
+
+a,
+img,
+li {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+img {
+    width: 40px;
+    margin: 0.6rem;
+}
